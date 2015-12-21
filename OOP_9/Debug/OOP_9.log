@@ -1,0 +1,79 @@
+﻿Сборка начата 21.12.2015 21:58:57.
+     1>Проект "C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\OOP_9.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\OOP_9.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt compare.cpp decrement.cpp flower.cpp main.cpp set.cpp setitem.cpp
+         setitem.cpp
+         set.cpp
+         main.cpp
+     1>c:\users\sasha\documents\github\oop_9\oop_9\set.cpp(64): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+                 c:\users\sasha\documents\github\oop_9\oop_9\set.cpp(61): при компиляции функции-члена "void Set<t,c,d>::dec(double)" класса шаблон
+                 with
+                 [
+                     t=Flower *,
+                     c=CompareFlower,
+                     d=DecrementFlower
+                 ]
+                 c:\users\sasha\documents\github\oop_9\oop_9\main.cpp(44): см. ссылку на создание экземпляров класса шаблон при компиляции "Set<t,c,d>"
+                 with
+                 [
+                     t=Flower *,
+                     c=CompareFlower,
+                     d=DecrementFlower
+                 ]
+     1>c:\users\sasha\documents\github\oop_9\oop_9\decrement.cpp(9): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+                 c:\users\sasha\documents\github\oop_9\oop_9\decrement.cpp(8): при компиляции функции-члена "void Decrement<t>::dec(SetItem<t> *,double)" класса шаблон
+                 with
+                 [
+                     t=int
+                 ]
+                 c:\users\sasha\documents\github\oop_9\oop_9\set.cpp(64): см. ссылку на создание экземпляров класса шаблон при компиляции "Decrement<t>"
+                 with
+                 [
+                     t=int
+                 ]
+                 c:\users\sasha\documents\github\oop_9\oop_9\set.cpp(61): при компиляции функции-члена "void Set<t>::dec(double)" класса шаблон
+                 with
+                 [
+                     t=int
+                 ]
+                 c:\users\sasha\documents\github\oop_9\oop_9\main.cpp(10): см. ссылку на создание экземпляров класса шаблон при компиляции "Set<t>"
+                 with
+                 [
+                     t=int
+                 ]
+         flower.cpp
+         decrement.cpp
+         compare.cpp
+         Создание кода...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OOP_9.exe.embed.manifest.res" Debug\OOP_9_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\Debug\OOP_9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OOP_9.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\Debug\OOP_9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\Debug\OOP_9.lib" /MACHINE:X86 Debug\OOP_9.exe.embed.manifest.res
+         Debug\compare.obj
+         Debug\decrement.obj
+         Debug\flower.obj
+         Debug\main.obj
+         Debug\set.obj
+         Debug\setitem.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OOP_9.exe.embed.manifest" /manifest Debug\OOP_9.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OOP_9.exe.embed.manifest.res" Debug\OOP_9_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\Debug\OOP_9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OOP_9.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\Debug\OOP_9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\Debug\OOP_9.lib" /MACHINE:X86 Debug\OOP_9.exe.embed.manifest.res
+         Debug\compare.obj
+         Debug\decrement.obj
+         Debug\flower.obj
+         Debug\main.obj
+         Debug\set.obj
+         Debug\setitem.obj
+         OOP_9.vcxproj -> C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\Debug\OOP_9.exe
+       FinalizeBuildStatus:
+         Файл "Debug\OOP_9.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\OOP_9.lastbuildstate".
+     1>Построение проекта "C:\Users\Sasha\Documents\GitHub\OOP_9\OOP_9\OOP_9.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.07

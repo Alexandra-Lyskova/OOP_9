@@ -74,6 +74,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="flower.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="compare.cpp" />
+    <ClCompile Include="decrement.cpp" />
+    <ClCompile Include="flower.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="set.cpp" />
+    <ClCompile Include="setitem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
